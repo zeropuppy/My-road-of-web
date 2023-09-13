@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表嵌套和属性</title>
+</head>
+<!-- 切记：
+    1.<li>不能散着放
+    2.<ul>的子标签只能是<li>
+    3.<li>里面可以放任何东西
+
+
+-->
+<!-- 无序列表的type属性
+   --------------------
+   |      值          描述
+   |     disc       实心圆（默认）
+   |     circle     空心圆
+   |     square     实心方块
+ -->
+<body>
+    <ul >
+        <li>
+            <h3>江苏省</h3>
+            <ul>
+                <li>南京</li>
+                <li>无锡</li>
+                <li>苏州</li>
+                <li>南通</li>
+            </ul>
+
+        </li>
+        <li>
+            <h3>江西省</h3>
+            <ul>
+                <li>南昌</li>
+                <li>赣州</li>
+                <li>吉安</li>
+                <li>萍乡</li>
+            </ul>
+
+        </li>
+
+    </ul>
+    <!-- 空心圆 -->
+    <h1>要买的东西</h1>
+    <ul type="circle">
+        <li>牛奶</li>
+        <li>水果
+            <p>别买香蕉，不好吃！！！</p>
+        </li>
+        <li>咖啡</li>
+  
+    </ul>
+    <!-- 实心方块 -->
+    <ul type="square">
+        <li>牛奶</li>
+        <li>水果
+            <p>别买香蕉，不好吃！！！</p>
+        </li>
+        <li>咖啡</li>
+  
+    </ul>
+    
+</body>
+</html>
